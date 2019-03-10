@@ -14,6 +14,7 @@
                 height: 95%;
                 margin: 0;
                 padding: 0;
+                overflow: hidden;
             }
         /* 竖屏时 */
         @media screen and (orientation: portrait) {
@@ -22,7 +23,6 @@
                 height: 100%;
                 margin: 0;
                 padding: 0;
-                overflow: hidden;
             }
 
             body {
@@ -30,6 +30,7 @@
                 height: 100%;
                 margin: 0;
                 padding: 0;
+                overflow: hidden;
             }
 
             #print {
@@ -53,6 +54,7 @@
                 height: 100%;
                 margin: 0;
                 padding: 0;
+                overflow: hidden;
             }
 
             #print {
@@ -131,7 +133,7 @@
             $(document).ready(function () {
                 $('.slider_circle_10').EasySlides({
                     'autoplay': true,
-                    'show': 13
+                    'show': 20
                 })
             });
             var evt = "onorientationchange" in window ? "orientationchange" : "resize";
